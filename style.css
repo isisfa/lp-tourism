@@ -253,14 +253,23 @@ footer .footer{
     .flex-container{
         flex-direction: column;
     }
+    .menu h1{
+        margin-bottom: 1rem;
+    }
     .presentation{
         flex-direction: column-reverse;
+        height: auto;
     }
     .presentation .presentation-text{
         width: 100%;
+        text-align: center;
+    }
+    .presentation .presentation-text a{
+        margin: auto;
     }
     #quem-somos{
         flex-direction: column-reverse;
+        margin-bottom: 1rem;
     }
     #quem-somos img{
         min-width: 20rem;
@@ -284,5 +293,6 @@ footer .footer{
         margin: auto;
         width: 100%;
         margin-bottom: 1.25rem;
+
     }
 }
